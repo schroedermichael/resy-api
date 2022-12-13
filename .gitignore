@@ -190,5 +190,3 @@ dist
 .pnp.*
 
 *.log
-
-db.json

@@ -1,0 +1,60 @@
+{
+  "venues": [
+    {
+      "name": "Via Carota",
+      "id": 2567,
+      "notified": true,
+      "minTime": "18:00",
+      "preferredTime": "19:00",
+      "maxTime": "20:00",
+      "shouldBook": true,
+      "partySize": 2,
+      "allowedDates": ["2022-12-13"]
+    },
+    {
+      "name": "I Sodi",
+      "id": 443,
+      "notified": true,
+      "minTime": "18:00",
+      "preferredTime": "19:00",
+      "maxTime": "20:00",
+      "shouldBook": true,
+      "partySize": 2,
+      "allowedDates": ["2022-12-13"],
+      "uuid": "39fd761b-6d0b-4191-abc4-459ab419f0aa"
+    },
+    {
+      "name": "Lilia",
+      "id": 418,
+      "notified": true,
+      "minTime": "18:00",
+      "preferredTime": "19:00",
+      "maxTime": "20:00",
+      "shouldBook": true,
+      "partySize": 2,
+      "allowedDates": ["2022-12-13"]
+    },
+    {
+      "name": "Laser Wolf",
+      "id": 58848,
+      "notified": true,
+      "minTime": "18:00",
+      "preferredTime": "19:00",
+      "maxTime": "20:00",
+      "shouldBook": true,
+      "partySize": 2,
+      "allowedDates": ["2022-12-13"]
+    },
+    {
+      "name": "Polo Bar",
+      "id": 6439,
+      "notified": true,
+      "minTime": "18:00",
+      "preferredTime": "19:00",
+      "maxTime": "20:00",
+      "shouldBook": true,
+      "partySize": 2,
+      "allowedDates": ["2022-12-13"]
+    }
+  ]
+}

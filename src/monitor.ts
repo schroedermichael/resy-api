@@ -7,6 +7,9 @@ import VenuesService from "./controllers/VenuesService";
 import dayjs from "dayjs";
 import type { EnhancedSlot } from "./types/find";
 
+import * as dotenv from "dotenv";
+
+dotenv.config();
 const email = process.env.RESY_EMAIL!;
 const password = process.env.RESY_PASSWORD!;
 const service = new ResyService({
@@ -77,7 +80,9 @@ const refreshAvailabilityForVenue = async (venue: VenueToWatch) => {
       //if dateToCheck.date in list of dates
       if (venue.allowedDates) {
         if (venue.allowedDates.indexOf(dateToCheck.date) == -1) {
-          log.info("skipping available date because of allowed dates flag");
+          log.info(
+            `skipping ${dateToCheck.date} because of allowed dates flag`
+          );
           continue;
         }
       }
@@ -137,7 +142,7 @@ const regenerateHeaders = async () => {
   }
 };
 // every day fetch every post
-cron.scheduleJob("*/5 * * * *", refreshAvailability);
+cron.scheduleJob("*/2 * * * *", refreshAvailability);
 cron.scheduleJob("1 * * * *", regenerateHeaders);
 
 regenerateHeaders().then(async () => {
