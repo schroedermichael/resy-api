@@ -65,6 +65,7 @@ const parsePossibleSlots = async (
     venue.reservationDetails = bookingResponse.data;
     log.info(`Successfully booked at ${venue.name}`);
     await venuesService.updateWatchedVenue(venue);
+    throw "booked";
   }
 };
 const refreshAvailabilityForVenue = async (venue: VenueToWatch) => {
@@ -80,9 +81,9 @@ const refreshAvailabilityForVenue = async (venue: VenueToWatch) => {
       //if dateToCheck.date in list of dates
       if (venue.allowedDates) {
         if (venue.allowedDates.indexOf(dateToCheck.date) == -1) {
-          log.info(
-            `skipping ${dateToCheck.date} because of allowed dates flag`
-          );
+          // log.info(
+          //   `skipping ${dateToCheck.date} because of allowed dates flag`
+          // );
           continue;
         }
       }

@@ -9,7 +9,10 @@
       "maxTime": "20:00",
       "shouldBook": true,
       "partySize": 2,
-      "allowedDates": ["2022-12-13"]
+      "allowedDates": [
+        "2022-12-13"
+      ],
+      "uuid": "c59ce7e7-2bae-490f-9f2c-bc33c41d8d53"
     },
     {
       "name": "I Sodi",
@@ -20,7 +23,9 @@
       "maxTime": "20:00",
       "shouldBook": true,
       "partySize": 2,
-      "allowedDates": ["2022-12-13"],
+      "allowedDates": [
+        "2022-12-13"
+      ],
       "uuid": "39fd761b-6d0b-4191-abc4-459ab419f0aa"
     },
     {
@@ -32,7 +37,10 @@
       "maxTime": "20:00",
       "shouldBook": true,
       "partySize": 2,
-      "allowedDates": ["2022-12-13"]
+      "allowedDates": [
+        "2022-12-13"
+      ],
+      "uuid": "6324c004-fd3a-4fff-909c-00bf6fbfd42c"
     },
     {
       "name": "Laser Wolf",
@@ -43,7 +51,10 @@
       "maxTime": "20:00",
       "shouldBook": true,
       "partySize": 2,
-      "allowedDates": ["2022-12-13"]
+      "allowedDates": [
+        "2022-12-13"
+      ],
+      "uuid": "d04f9579-54c9-4a21-b840-d024e7966d1a"
     },
     {
       "name": "Polo Bar",
@@ -54,7 +65,10 @@
       "maxTime": "20:00",
       "shouldBook": true,
       "partySize": 2,
-      "allowedDates": ["2022-12-13"]
+      "allowedDates": [
+        "2022-12-13"
+      ],
+      "uuid": "211354a0-1e75-4d42-abb6-88fffc6b82aa"
     }
   ]
 }
